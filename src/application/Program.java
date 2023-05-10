@@ -36,7 +36,7 @@ public class Program {
 			System.out.println("Withdraw error: " + e.getMessage());
 		}
 		catch (Exception e) {
-			System.out.println("Entrada inválida!");
+			System.out.println("Invalid Input");
 		}
 		
 		sc.close();
